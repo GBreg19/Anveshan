@@ -1,0 +1,921 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'ArialR';
+    src: url(fonts/Arial\ regular.ttf);
+}
+
+@font-face {
+    font-family: 'GeorgiaR';
+    src: url(fonts/Georgia\ Regular\ font.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoB';
+    src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoL';
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoR';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoT';
+    src: url(fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'MyriadProReg';
+    src: url(fonts/Myriad\ Pro\ Regular.ttf);
+}
+
+@font-face {
+    font-family: 'ArialMT';
+    src: url(fonts/ARIALMT.ttf);
+}
+
+/* header  */
+
+header {
+    height: 100vh;
+    background-image: url('images/Layer-3.jpg');
+    background-color: rgb(50, 0, 60, 0.8);
+    background-blend-mode: overlay;
+    background-size: 100% 125%;
+}
+
+/* logo and navigation  */
+
+.header {
+    display: -webkit-box;      
+    display: -moz-box;         
+    display: -ms-flexbox;     
+    display: -webkit-flex;     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.logo {
+    display: -webkit-box;      
+    display: -moz-box;         
+    display: -ms-flexbox;     
+    display: -webkit-flex;     
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+}
+
+.logo .img1 {
+    height: 47px;
+    width: 54px;
+}
+
+.logo .img2 {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.logo h1 {
+    font-family: 'RobotoR';
+    font-size: 36px;
+    color: white;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+
+.nav {
+    width: 200px;
+    margin-right: 177px;
+    position: relative;
+}
+
+.nav::after {
+    content: '';
+    width: 1px;
+    height: 23px;
+    background-color: #5e5e5e;
+    position: absolute;
+    top: 0;
+    left: 115px;
+}
+
+.nav ul {
+    display: -webkit-box;      
+    display: -moz-box;         
+    display: -ms-flexbox;     
+    display: -webkit-flex;     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'RobotoR';
+}
+
+/* header headings  */
+
+header .heading {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 150px;
+}
+
+header .heading h1 {
+    font-family: 'GeorgiaR';
+    font-size: 73px;
+    font-weight: normal;
+    color: white;
+    text-transform: uppercase;
+}
+
+header .heading h1 span {
+    color: #ed322d;
+}
+
+header .heading p {
+    font-family: 'RobotoL';
+    font-size: 20px;
+    color: #a8a8a8;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* main  */
+/* block1  */
+
+.block1 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 625px;
+}
+
+.block1 .box1 {
+    width: 50%;
+} 
+
+.block1 .box1 img {
+    max-width: 100%;
+    height: 625px;
+}
+
+.block1 .box2 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    width: 50%;
+}
+
+.box2 .box-content {
+    text-align: left;
+    position: relative;
+    width: 80%;
+}
+
+.block1 .box2 .div1 {
+    border-bottom: solid 1px #d9d9d9;
+    padding-bottom: 30px;
+}
+
+.box2 .box-content h1 {
+    font-family: 'GeorgiaR';
+    font-size: 72px;
+    font-weight: normal;
+    width: 60%;
+}
+
+.box2 .box-content h1 span {
+    font-family: 'GeorgiaR';
+    font-size: 72px;
+    color: #ed322d;
+}
+
+.block1 .box2 .box-content .div1 p {
+    font-family: 'MyriadProReg';
+    font-size: 17px;
+    color: #5d5d5d;
+    margin-top: 75px;
+    width: 90%;
+    line-height: 30px;
+}
+
+.block1 .box2 .div2 {
+    margin-top: 35px;
+    width: 85%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.block1 .box2 .div2 .p {
+    font-family: 'RobotoL';
+    margin-left: 25px;
+    color: #5d5d5d;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+
+.box2 .box-content p::before {
+    content: '';
+    width: 34px;
+    height: 2px;
+    background-color: #c2c2c2;
+    position: absolute;
+    left: 0;
+    top: 200px;
+}
+
+/* block2  */
+
+.block2 {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 162px;
+    padding-bottom: 150px;
+    position: relative;
+}
+
+.block2 .box1 {
+    padding-bottom: 180px;
+}
+
+.block2 .box1 h1 {
+    font-family: 'GeorgiaR';
+    font-size: 72px;
+    font-weight: normal;
+    color: #404040;
+    margin-bottom: 67px;
+}
+
+.block2 .box1 p {
+    font-family: 'ArialMT';
+    font-size: 24px;
+    line-height: 37px;
+    color: #5d5d5d;
+}
+
+.block2 .box1 h1::after {
+    content: '';
+    width: 34px;
+    height: 2px;
+    background-color: #bebebe;
+    position: absolute;
+    top: 21%;
+    left: 48%;
+}
+
+.block2 .box2 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 158px;
+}
+
+.block2 .box2 .circle1 {
+    width: 200px;
+    height: 200px;
+    background-color: #f1757b;
+    border-radius: 50%;
+    color: white;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block2 .box2 .circle2 {
+    width: 200px;
+    height: 200px;
+    background-color: #77cfc7;
+    border-radius: 50%;
+    color: white;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block2 .box2 .circle3 {
+    width: 200px;
+    height: 200px;
+    background-color: #6dd5ed;
+    border-radius: 50%;
+    color: white;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block2 .box2 .circle4 {
+    width: 200px;
+    height: 200px;
+    background-color: #f6ce42;
+    border-radius: 50%;
+    color: white;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block2 .box2 div h2 {
+    font-family: 'RobotoR';
+    font-size: 24px;
+}
+
+.block2 .box3 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color: #5d5d5d;
+}
+
+.block2 .box3 div h2 {
+    font-family: 'RobotoB';
+    font-size: 15px;
+}
+
+.block2 .box3 p {
+    font-family: 'RobotoL';
+    padding-top: 22px;
+    line-height: 26px;
+    font-size: 15px;
+}
+
+.block2 .box3 div {
+    width: 270px;
+}
+
+/* block 3  */
+
+.block3 {
+    height: 1100px;
+    background-image: url("images/Layer\ 6.png");
+    background-size: 100%;
+    background-color: rgb(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
+    position: relative;
+}
+
+.block3 .triangle img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+}
+
+.block3 .heading {
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    z-index: 2;
+}
+
+.block3 .heading h1 {
+    font-size: 72px;
+    font-family: 'GeorgiaR';
+    font-weight: normal;
+    position: relative;
+}
+
+.block3 .heading h1::after {
+    content: '';
+    width: 34px;
+    height: 2px;
+    background-color: #464646;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+}
+
+.block3 .heading p {
+    margin: auto;
+    margin-top: 63px;
+    font-size: 24px;
+    font-family: 'RobotoT';
+    width: 60%;
+}
+
+.block3 .heading span {
+    color: red;
+}
+
+.block3 .boxes {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 95%;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: left;
+    margin-top: 50px;
+    z-index: 2;
+}
+
+.block3 .boxes h3 {
+    font-family: 'RobotoR';
+}
+
+.block3 .boxes p {
+    font-family: 'RobotoL';
+    line-height: 24px;
+    margin-top: 5px;
+}
+
+/* first row */
+
+.block3 .boxes .first {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #7a225d;
+}
+
+.block3 .boxes .first .box1 {
+    width: 35%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.block3 .boxes .first .box1 .box1-content {
+    width: 40%;
+}
+
+.block3 .boxes .first .box1::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f061";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    font-size: 40px;
+    background-color: rgb(255, 255, 255, 0.1);
+    padding: 53px 55px;
+    position: absolute;
+    top: -26%;
+    left: 0;
+}
+
+.block3 .boxes .first .box2 {
+    width: 35%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.block3 .boxes .first .box2 .box2-content {
+    width: 40%;
+}
+
+.block3 .boxes .first .box2::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f061";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255, 0.1);
+    font-size: 40px;
+    padding: 53px 55px;
+    position: absolute;
+    top: -26%;
+    left: 0;
+}
+
+.block3 .boxes .first .box3 {
+    width: 35%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.block3 .boxes .first .box3 .box3-content {
+    width: 40%;
+}
+
+.block3 .boxes .first .box3::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f061";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255, 0.1);
+    font-size: 40px;
+    padding: 53px 55px;
+    position: absolute;
+    top: -26%;
+    left: 0;
+}
+
+/* second row  */
+
+.block3 .boxes .second {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #480048;
+}
+
+.block3 .boxes .second .box1 {
+    width: 35%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.block3 .boxes .second .box1 .box1-content {
+    width: 40%;
+}
+
+.block3 .boxes .second .box1::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f061";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    font-size: 40px;
+    background-color: rgb(255, 255, 255, 0.1);
+    padding: 53px 55px;
+    position: absolute;
+    top: -26%;
+    left: 0;
+}
+
+.block3 .boxes .second .box2 {
+    width: 35%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.block3 .boxes .second .box2 .box2-content {
+    width: 40%;
+}
+
+.block3 .boxes .second .box2::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f061";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255, 0.1);
+    font-size: 40px;
+    padding: 53px 55px;
+    position: absolute;
+    top: -26%;
+    left: 0;
+}
+
+.block3 .boxes .second .box3 {
+    width: 35%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.block3 .boxes .second .box3 .box3-content {
+    width: 40%;
+}
+
+.block3 .boxes .second .box3::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f061";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255, 0.1);
+    font-size: 40px;
+    padding: 53px 55px;
+    position: absolute;
+    top: -26%;
+    left: 0;
+}
+
+/* third row  */
+
+.block3 .boxes .third {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #300030;
+}
+
+.block3 .boxes .third .box1 {
+    width: 35%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.block3 .boxes .third .box1 .box1-content {
+    width: 40%;
+}
+
+.block3 .boxes .third .box1::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f061";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    font-size: 40px;
+    background-color: rgb(255, 255, 255, 0.1);
+    padding: 53px 55px;
+    position: absolute;
+    top: -26%;
+    left: 0;
+}
+
+.block3 .boxes .third .box2 {
+    width: 35%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.block3 .boxes .third .box2 .box2-content {
+    width: 40%;
+}
+
+.block3 .boxes .third .box2::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f061";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255, 0.1);
+    font-size: 40px;
+    padding: 53px 55px;
+    position: absolute;
+    top: -26%;
+    left: 0;
+}
+
+.block3 .boxes .third .box3 {
+    width: 35%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.block3 .boxes .third .box3 .box3-content {
+    width: 40%;
+}
+
+.block3 .boxes .third .box3::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f061";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    background-color: rgb(255, 255, 255, 0.1);
+    font-size: 40px;
+    padding: 53px 55px;
+    position: absolute;
+    top: -26%;
+    left: 0;
+}
+
+/* block 4  */
+
+.block4 {
+    background-image: url("images/Shape\ 30.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 90px;
+}
+
+.block4 .title {
+    font-family: 'GeorgiaR';
+    font-size: 72px;
+    font-weight: normal;
+    margin: auto;
+    text-align: center;
+    padding-top: 160px;
+    position: relative;
+}
+
+.block4 .title::after {
+    content: '';
+    width: 34px;
+    height: 2px;
+    background-color: #bebebe;
+    position: absolute;
+    top: 105%;
+    left: 50%;
+}
+
+.block4 .form {
+    background-color: white;
+    margin: auto;
+    margin-top: 55px;
+    width: 50%;
+    height: 625px;
+    padding: 65px 230px;
+}
+
+.block4 .form .inputs div input {
+    border: none;
+    border-bottom: solid 2px #ebebeb;
+    font-size: 14px;
+    color: #8e8e8e;
+    font-family: 'RobotoL';
+    padding: 10px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.block4 .form .inputs .text textarea {
+    border: none;
+    border-bottom: solid 2px #ebebeb;
+    font-size: 14px;
+    color: #8e8e8e;
+    font-family: 'RobotoL';
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.form .button {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.form .button button {
+    padding: 22px 85px;
+    border: solid 2px #878787;
+    font-family: 'RobotoR';
+    font-size: 17px;
+    background-color: white;
+}
+
+/* footer  */
+
+.footer {
+    padding-top: 70px;
+    padding-bottom: 75px;
+}
+
+.footer .icons {
+    width: 15%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+
+.footer .icons span {
+    color: #8a8a8a;
+    padding: 20px;
+    border: solid 2px #8a8a8a;
+}
+
+.footer .icons .fb {
+    padding: 20px 25px;
+}
+
+.footer .icons .tw {
+    padding: 18px 22px;
+}
+
+.footer .footer-content {
+    font-family: 'RobotoL';
+    font-size: 17px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 65px;
+    color: #969696;
+}
+
+.footer .footer-content span {
+    font-weight: bold;
+}
+
+.footer .designed {
+    font-family: 'RobotoL';
+    text-align: center;
+    font-size: 17px;
+    color: #969696;
+}
+
+.footer .designed a {
+    color: #db2d2d;
+}
